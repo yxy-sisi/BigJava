@@ -25,7 +25,7 @@ public void paintComponent(Graphics g){
 	eye.translate(50, 0);
 	g2.fill(eye);
 	
-	//draw the mouth .....
+	//draw the mouth
 	Line2D.Double mouth =  new Line2D.Double(30, 110, 80, 110);
 	g2.setColor(Color.RED);
 	g2.draw(mouth);

@@ -15,7 +15,8 @@ public static void main(String[] args) {
 	frame.setVisible(true);
 	
 	DrawPanel drawPanel= new DrawPanel();
-	frame.add(drawPanel);
+//	frame.add(drawPanel);
+	frame.setContentPane(drawPanel);
 
 }
 

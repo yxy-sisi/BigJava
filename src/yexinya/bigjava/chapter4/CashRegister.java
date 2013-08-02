@@ -32,7 +32,7 @@ public class CashRegister {
 	 */
 	public void enterPayment(int dollars, int quarters, int dimes, int nickels,
 			int pennies) {//  ‰»Î∏∂øÓ
-		payment = dollars * QUARTER_VALUE + dimes * DIME_VALUE + nickels
+		payment = dollars + quarters * QUARTER_VALUE + dimes * DIME_VALUE + nickels
 				* NICKEL_VALUE + pennies * PENNY_VALUE;
 	}
 

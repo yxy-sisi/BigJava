@@ -13,7 +13,7 @@ public class RectangleApplet extends JApplet{
 
 		Rectangle box = new Rectangle(5, 10, 20, 30);
 		g2.draw(box);
-
+//”““∆15£¨œ¬25
 		box.translate(15, 25);
 
 		g2.draw(box);

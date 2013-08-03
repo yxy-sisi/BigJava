@@ -13,7 +13,7 @@ StaticTest(){
 }
 
 public static void main(String[] args) {
-	System.out.println("in main");
-	StaticTest st= new StaticTest();
+//	System.out.println("in main");
+//	StaticTest st= new StaticTest();
 }
 }

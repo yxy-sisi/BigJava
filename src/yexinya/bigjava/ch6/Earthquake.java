@@ -42,5 +42,6 @@ public class Earthquake {
 		double magnitude = input.nextDouble();
 		Earthquake e = new Earthquake(magnitude);
 		System.out.println(e.getDescription());
+		input.close();
 	}
 }

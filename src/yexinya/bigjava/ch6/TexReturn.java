@@ -78,5 +78,6 @@ public class TexReturn {
 		
 		TexReturn tr = new TexReturn(income, state);
 		System.out.println(tr.getTax());
+		input.close();
 	}
 }

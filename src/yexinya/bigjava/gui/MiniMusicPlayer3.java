@@ -25,7 +25,7 @@ public class MiniMusicPlayer3 {
 	}
 
 	public void setUpGui() {
-		dp = new MyDrawPanel();
+		MyDrawPanel dp = new MyDrawPanel();
 		// frame.setContentPane(dp);
 		frame.setTitle("music video");
 		frame.add(dp,BorderLayout.CENTER);
@@ -39,7 +39,7 @@ public class MiniMusicPlayer3 {
 		try {
 			Sequencer sequencer = MidiSystem.getSequencer();
 			sequencer.open();
-			sequencer.addControllerEventListener(dp, new int[] { 127 });
+//			sequencer.addControllerEventListener(dp, new int[] { 127 });
 
 			Sequence seq = new Sequence(Sequence.PPQ, 4);
 			Track track = seq.createTrack();
@@ -85,7 +85,7 @@ public class MiniMusicPlayer3 {
 		public void controlChange(ShortMessage event) {
 			// TODO Auto-generated method stub
 //			msg = true;
-			dp.repaint();
+//			dp.repaint();
 		}
 
 		public void painComponent(Graphics g) {

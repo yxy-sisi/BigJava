@@ -1,4 +1,4 @@
-package yexinya.bigjava.ch6_earthquake;
+package yexinya.bigjava.ch6;
 
 import java.util.Scanner;
 
